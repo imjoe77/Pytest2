@@ -1,7 +1,7 @@
 def add(x, y):
     return x + y
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     import sys
     if len(sys.argv) == 3:
         num1 = int(sys.argv[1])
